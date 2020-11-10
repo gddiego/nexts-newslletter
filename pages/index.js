@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Link } from 'react-bootstrap/lib/Navbar';
+import { Link } from 'react-bootstrap';
 import './_app';
 function index() {
   const [campos, setCampos] = useState({
