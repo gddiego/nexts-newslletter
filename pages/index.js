@@ -38,7 +38,7 @@ function index() {
               <div class="col-md-4"></div>
               <br /><br /><br />
               <Link href='/home'>
-                <button class="btn btn-primary btn-lg">Inscreva-se</button>
+                <a class="btn btn-primary btn-lg">Inscreva-se</a>
               </Link>
             </form>
 
