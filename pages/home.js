@@ -7,18 +7,18 @@ const Home = () => (
         marginBottom: '5%'
     }}>
         <Head>
-            <title>News App</title>
+            <title>App Next.js</title>
             <link rel="icon" href="/favicon.ico" />
         </Head>
         <Navbar fixed="top" collapseOnSelect expand="lg" bg="dark" variant="dark">
-            <Navbar.Brand href="/">SGIDUS</Navbar.Brand>
+            <Navbar.Brand href="/">SmashLog tecnologia</Navbar.Brand>
             <Navbar.Toggle aria-controls="responsive-navbar-nav" />
             <Navbar.Collapse id="responsive-navbar-nav">
                 <Nav>
                     <NavDropdown title="News" id="collasible-nav-dropdown">
-                        <NavDropdown.Item href="/business">Business</NavDropdown.Item>
+                        <NavDropdown.Item href="/business">Negocios</NavDropdown.Item>
                         <NavDropdown.Divider />
-                        <NavDropdown.Item href="/technology">Technology</NavDropdown.Item>
+                        <NavDropdown.Item href="/technology">Tecnologia</NavDropdown.Item>
                     </NavDropdown>
                 </Nav>
             </Navbar.Collapse>
