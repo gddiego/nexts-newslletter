@@ -23,9 +23,9 @@ function Home() {
         <div class="tab-content custom-tab-content" align="center">
           <div class="subscribe-panel">
             <h1>Newsletter!!!</h1>
-            <p>Inscreva-se agora!!! </p>
+            <p>Olá pessoal receba conteúdos sobre tecnologia e desenvolvimento de software gratuito!!! </p>
 
-            <form action=''  onSubmit={handleFormSubmit} method="post">
+            <form action='' onSubmit={handleFormSubmit} method="post">
 
               <div class="col-md-4"></div>
               <div class="col-md-4">
