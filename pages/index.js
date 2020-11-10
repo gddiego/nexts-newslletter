@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Link } from 'react-bootstrap';
+import { Link } from 'next/link';
 import './_app';
 function index() {
   const [campos, setCampos] = useState({
