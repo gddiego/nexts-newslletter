@@ -1,6 +1,7 @@
 import Head from 'next/head';
+import { Navbar, NavDropdown } from 'react-bootstrap';
 
-import { Navbar, Nav, NavDropdown } from 'react-bootstrap';
+// import { Navbar, Nav, NavDropdown } from 'react-bootstra';
 
 const Home = () => (
     <div style={{
