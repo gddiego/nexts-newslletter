@@ -1,7 +1,6 @@
 import React, { useState } from 'react';
-import { Link } from 'next/link';
 import './_app';
-function index() {
+function Home() {
   const [campos, setCampos] = useState({
     email: '',
   });
@@ -24,7 +23,7 @@ function index() {
         <div class="tab-content custom-tab-content" align="center">
           <div class="subscribe-panel">
             <h1>Newsletter!!!</h1>
-            <p>Olá pessoal receba conteúdos sobre tecnologia e desenvolvimento de software gratuito!!! </p>
+            <p>Olá pessoal receba conteúdos sobre tecnologia e desenvolvimento de software gratuito </p>
 
             <form action='' onSubmit={handleFormSubmit} method="post">
 
@@ -37,9 +36,7 @@ function index() {
               </div>
               <div class="col-md-4"></div>
               <br /><br /><br />
-              <Link href='/home'>
-                <a class="btn btn-primary btn-lg">Inscreva-se</a>
-              </Link>
+              <button class="btn btn-primary btn-lg">Inscreva-se</button>
             </form>
 
           </div>
