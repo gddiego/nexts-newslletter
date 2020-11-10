@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
+import { Link } from 'react-bootstrap/lib/Navbar';
 import './_app';
-function Home() {
+function index() {
   const [campos, setCampos] = useState({
     email: '',
   });
@@ -36,7 +37,9 @@ function Home() {
               </div>
               <div class="col-md-4"></div>
               <br /><br /><br />
-              <button class="btn btn-primary btn-lg">Inscreva-se</button>
+              <Link href='/home'>
+                <button class="btn btn-primary btn-lg">Inscreva-se</button>
+              </Link>
             </form>
 
           </div>
