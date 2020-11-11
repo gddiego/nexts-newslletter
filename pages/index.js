@@ -17,29 +17,27 @@ function Home() {
   }
   return (
 
-    <div class="intro-header">
-      <div class="container" align="center">
-
-        <div class="tab-content custom-tab-content" align="center">
-          <div class="subscribe-panel">
-            <h1>Newsletter!!!</h1>
-            <p>Olá pessoal receba conteúdos sobre tecnologia e desenvolvimento de software gratuito </p>
-
-            <form action='' onSubmit={handleFormSubmit} method="post">
-
-              <div class="col-md-4"></div>
-              <div class="col-md-4">
-                <div class="input-group">
-                  <span class="input-group-addon"><i class="glyphicon glyphicon-envelope" aria-hidden="true"></i></span>
-                  <input type="text" class="form-control input-lg" name="email" id="email" onChange={handleInputChange} placeholder="Preencha seu email" />
-                </div>
-              </div>
-              <div class="col-md-4"></div>
-              <br /><br /><br />
-              <button class="btn btn-primary btn-lg">Inscreva-se</button>
-            </form>
-
+    <div class="container-fluid gedf-wrapper">
+      <div class="col-md-3">
+        <div class="card">
+          <div class="card-body">
+            <div class="h5"></div>
+            <div class="h7 text-muted">Seja Bem vindo</div>
+            <div class="h7">Conteudos web applications, JavaScript, PHP, Java, Python, Ruby, Java, Node.js,
+            etc.
+                        </div>
           </div>
+          <ul class="list-group list-group-flush">
+            <li class="list-group-item">
+              <div class="h6 text-muted">Followers</div>
+              <div class="h5">5.2342</div>
+            </li>
+            <li class="list-group-item">
+              <div class="h6 text-muted">Following</div>
+              <div class="h5">6758</div>
+            </li>
+            <li class="list-group-item">....</li>
+          </ul>
         </div>
       </div>
     </div>
